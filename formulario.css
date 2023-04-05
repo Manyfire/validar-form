@@ -1,0 +1,46 @@
+html{
+  box-sizing: border-box;
+  font-size: 65.2%;
+}
+
+*, *::before, *::after{
+  box-sizing: inherit;
+}
+
+body{
+  font-size: 1.6rem;
+  background-color: darkslateblue;
+}
+
+.inicio{
+  border: 1px solid;
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h2 {
+  color: white;
+  
+  
+}
+
+a {
+  text-decoration: none;
+}
+
+.invalid {
+  color: #ee453f;
+}
+
+.valid {
+  color: rgb(78, 241, 78);
+}
+
+.valid::after {
+  padding-left: 25px;
+  content: "\2713";
+  font-weight: bolder;
+}
